@@ -1,8 +1,18 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import HomeCards from "./components/HomeCards";
+import JobListings from "./components/JobListings";
+import ViewAllJobs from "./components/ViewAllJobs";
+
 const App = () => {
   return (
-    <main>
-      <h1>JobJoy React App!</h1>
-    </main>
+    <>
+      <Navbar />
+      <Hero />
+      <HomeCards />
+      <JobListings />
+      <ViewAllJobs />
+    </>
   );
 };
 
