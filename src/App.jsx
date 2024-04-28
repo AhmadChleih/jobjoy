@@ -10,7 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <HomeCards />
-      <JobListings />
+      <JobListings isHome={true} />
       <ViewAllJobs />
     </>
   );
