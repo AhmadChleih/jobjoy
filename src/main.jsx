@@ -19,6 +19,10 @@ const router = createBrowserRouter([
     element: <Jobs />,
   },
   {
+    path: "/job/:id",
+    element: <Jobs />,
+  },
+  {
     path: "*",
     element: <NotFound />,
   },
